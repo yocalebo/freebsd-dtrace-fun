@@ -38,5 +38,5 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 sdt:::arc-available_memory
 /arg0 < 0/
 {
-	printf("%d\t  %s  %s  %d, %d\n", pid, execname, probefunc, arg0, arg1);
+	printf("%d\t  %s  %s  %d, %d\n", pid,execname,probefunc,arg0,arg1);
 }
