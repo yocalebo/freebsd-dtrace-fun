@@ -27,9 +27,9 @@ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
 SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-/*The idea with this simple dtrace script is to display the process that is reporting
+ The idea with this simple dtrace script is to display the process that is reporting
  *there is too little sequential KVA left which causes "an aggressive reclamation" of ARC
  *which causes a brief I/O block on the zpool.
  *On 11.1-RELEASE-p1 refer to line #3980 in "arc.c", specifically the FMR_ZIO_FRAG result*/
